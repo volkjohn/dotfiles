@@ -11,7 +11,6 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 
-Plugin 'fatih/vim-go'
 Plugin 'fatih/molokai'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
@@ -42,4 +41,5 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 colorscheme molokai
+set colorcolumn=77
 set number
